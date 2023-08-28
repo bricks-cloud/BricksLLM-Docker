@@ -6,6 +6,11 @@ This repository serves as a quick way to try out/develop [BricksLLM AI gateway](
 - [docker-compose](https://www.docker.com/products/docker-desktop/)
 
 ### Getting started
+First set up your OpenAI credential  
+```bash
+export OPENAI_API_KEY=YOUR_OPENAI_API_KEY
+```
+Then run docker-compose
 ```bash
 docker-compose up -d
 ```
